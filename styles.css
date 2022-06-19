@@ -95,7 +95,8 @@ a:link,a:visited,a:hover,a:active {
 /* Font */
 @font-face {
     font-family: outfit;
-    src: url(assets/fonts/Outfit.ttf)
+    src: url(assets/fonts/Outfit.ttf);
+    font-display: swap;
 }
 /* Other */
 .navCurrentlyOn {
