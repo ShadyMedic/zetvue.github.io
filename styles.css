@@ -63,6 +63,7 @@ a:link,a:visited,a:hover,a:active {
     color: #ff5555;
 }
 .introHeya { 
+    color: #ffaaaa;
     padding-bottom: 20px;
     text-align: center;
     font-size: 60px;
@@ -73,11 +74,20 @@ a:link,a:visited,a:hover,a:active {
     font-size: 40px;
     text-align: center;
 }
+.introSVG {
+    font-size: 40px;
+    text-align: center;
+}
+.introSVG img{
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .introBrief {
     font-size: 25px;
     text-align: center;
 }
 .introMedia {
+    color: #ffaaaa;
     padding-top: 30px;
     text-align: center;
     font-size: 60px;
@@ -85,6 +95,7 @@ a:link,a:visited,a:hover,a:active {
     letter-spacing: 2px;
 }
 .introMediaSub {
+    color: #ffaaaa;
     padding-bottom: 30px;
     padding-top: 20px;
     text-align: center;
