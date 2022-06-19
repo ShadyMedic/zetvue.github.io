@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+  }
+/* Sidebar */
+body {
+    background-color: #2B0000;
+    margin: 15px;
+}
+nav {
+    background-color: #ff5555;
+    color:#ff0000 ;
+    font-size: 30px; 
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    width: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 10px 10px 40px #00000062;
+}
+
+.navzetvue, .navlinks a {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.navzetvue, .navlinks {
+  display: flex;
+}
+
+.navzetvue {
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.navlinks {
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 40px;
+}
+
+nav a:link,nav a:visited,nav a:hover,nav a:active {
+    text-decoration: none;
+    color: #2B0000;
+}
+a:link,a:visited,a:hover,a:active {
+    color: #ff5555;
+}
+/* Introduction */
+.introduction {
+    padding: 50px;
+    padding-top: 130px;
+    color: #ff5555;
+}
+.introHeya { 
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.introMe {
+    font-size: 40px;
+    text-align: center;
+}
+.introBrief {
+    font-size: 25px;
+    text-align: center;
+}
+.introMedia {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.introMediaSub {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px; 
+}
+/* Font */
+@font-face {
+    font-family: outfit;
+    src: url(assets/fonts/Outfit.ttf)
+}
+/* Other */
+.navCurrentlyOn {
+    font-weight: 700;
+}
