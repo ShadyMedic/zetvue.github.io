@@ -3,15 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Outfit;
-  }
+}
+
 /* Sidebar */
 body {
-    background-color: #2B0000;
+    background-color: #2b0000;
     margin: 15px;
 }
+
 #nav {
     background-color: #ff5555;
-    font-size: 20px; 
+    font-size: 20px;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -25,15 +27,17 @@ body {
     box-shadow: 10px 10px 40px #00000062;
 }
 
-.navzetvue, .navlinks a {
-  display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
+.navzetvue,
+.navlinks a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
 }
 
-.navzetvue, .navlinks {
-  display: flex;
+.navzetvue,
+.navlinks {
+    display: flex;
 }
 
 .navzetvue {
@@ -48,66 +52,85 @@ body {
     padding-right: 40px;
 }
 
-nav a:link,nav a:visited,nav a:hover,nav a:active {
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active {
     text-decoration: none;
-    color: #2B0000;
+    color: #2b0000;
 }
-a:link,a:visited,a:hover,a:active {
+
+a:link,
+a:visited,
+a:hover,
+a:active {
     color: #ff5555;
 }
+
+ul {
+    list-style-type: none;
+}
+
 /* Introduction */
 .introduction {
     padding: 50px;
     padding-top: 130px;
     color: #ff5555;
 }
-.introHeya { 
+
+h1 {
     color: #ffaaaa;
-    padding-bottom: 20px;
     text-align: center;
     font-size: 60px;
     font-weight: 600;
     letter-spacing: 2px;
 }
+
+.introHeya {
+    padding-bottom: 20px;
+}
+
+.introMedia {
+    padding-top: 30px;
+}
+
 .introMe {
     font-size: 40px;
     text-align: center;
 }
+
 .introSVG {
     font-size: 40px;
     text-align: center;
 }
-.introSVG img{
+
+.introSVG img {
     padding-left: 5px;
     padding-right: 5px;
 }
+
 .introBrief {
     font-size: 25px;
     text-align: center;
 }
-.introMedia {
-    color: #ffaaaa;
-    padding-top: 30px;
-    text-align: center;
-    font-size: 60px;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-.introMediaSub {
+
+h2 {
     color: #ffaaaa;
     padding-bottom: 30px;
     padding-top: 20px;
     text-align: center;
     font-size: 40px;
     font-weight: 600;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
 }
+
 /* Font */
 @font-face {
     font-family: outfit;
     src: url(assets/fonts/Outfit.ttf);
     font-display: swap;
 }
+
 /* Other */
 .navCurrentlyOn {
     font-weight: 700;
