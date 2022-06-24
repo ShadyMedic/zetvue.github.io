@@ -1,18 +1,19 @@
+/* colors to use for site: Blacks | 0B090A 161A1D | Reds | 660708 A4161A BA181B E5383B | Whites | B1A7A6 D3D3D3 F5F3F4 FFFFFF | */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Outfit;
+    font-family: Lexend;
 }
 
 /* Sidebar */
 body {
-    background-color: #2b1515;
+    background-color: #0B090A;
     margin: 15px;
 }
 
 #nav {
-    background-color: #ff5555;
+    background-color: #E5383B;
     font-size: 20px;
     font-weight: 500;
     display: flex;
@@ -56,14 +57,14 @@ nav a:visited,
 nav a:hover,
 nav a:active {
     text-decoration: none;
-    color: #2b1515;
+    color: #0B090A;
 }
 
 a:link,
 a:visited,
 a:hover,
 a:active {
-    color: #ff5555;
+    color: #E5383B;
 }
 
 ul {
@@ -74,7 +75,7 @@ ul {
 .introduction {
     padding: 50px;
     padding-top: 80px;
-    color: #ff5555;
+    color: #E5383B;
 }
 
 h1 {
@@ -83,6 +84,9 @@ h1 {
     font-size: 45px;
     font-weight: 600;
     padding-bottom: 20px;
+    font-variation-settings: 'LXND' 40;
+    font-family: Lexend Exa;
+    letter-spacing: -3px;
 }
 
 .introMedia {
@@ -112,19 +116,34 @@ h1 {
 }
 
 h2 {
-    color: #ffa0a0;
+    color: #B1A7A6;
     padding-bottom: 20px;
     text-align: center;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
+    font-family: Lexend Mega;
+    letter-spacing: -1px;
 }
 
 /* Font */
 @font-face {
-    font-family: outfit;
-    src: url(assets/fonts/Outfit.ttf);
+    font-family: Lexend;
+    src: url(assets/fonts/Lexend.ttf);
     font-display: swap;
 }
+
+@font-face {
+    font-family: Lexend Exa;
+    src: url(assets/fonts/Lexend_Exa.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Lexend Mega;
+    src: url(assets/fonts/Lexend_Mega.ttf);
+    font-display: swap;
+}
+
 
 /* Other */
 .navCurrentlyOn {
