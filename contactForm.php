@@ -3,8 +3,7 @@ $sender = '';
 $message = '';
 $antispam = '';
 if ($_POST) {
-    //define('WEBMASTER_MAIL', 'zetvuegm0@gmail.com');
-    define('WEBMASTER_MAIL', 'team@voicesofwynn.com');
+    define('WEBMASTER_MAIL', 'zetvuegm0@gmail.com');
     define('EMAIL_SUBJECT', 'Somebody sent you a message through the contact form.');
     define('ANTISPAM_SOLUTION', 'green'); //Will be treated as case-insensitive
 
@@ -51,3 +50,4 @@ if ($_POST) {
         $contactFormResponse = 'Fill in all the fields please.';
     }
 }
+
