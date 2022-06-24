@@ -1,3 +1,4 @@
+<?php require 'contactForm.php'; //This handles sending the contact form ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -173,6 +174,19 @@
       <h6>
         The text above is an image to protect against bots and spammers.
       </h6>
+      <form method="post">
+        <label for="sender">Your e-mail</label><br>
+        <input id="sender" name="sender" type="email" value="<?= $sender ?>" required /><br>
+
+        <label for="message">Your message</label><br>
+        <textarea id="message" name="message" required ><?= $message ?></textarea><br>
+
+        <label for="antispam">What color is grass?</label><br>
+        <input id="antispam" name="antispam" type="text" maxlength=5 value="<?= $antispam ?>" required /><br>
+
+        <input type="submit" value="📨 Send"><br>
+        <div id="contactFormResponse"><?= @$contactFormResponse ?></div>
+      </form>
     </section>
   </body>
 </html>

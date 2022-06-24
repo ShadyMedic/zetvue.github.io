@@ -157,3 +157,7 @@ h2 {
 .navCurrentlyOn {
     font-weight: 700;
 }
+
+#contactFormResponse {
+    color: cornflowerblue; /* TODO change this to whatever you like, plus add styling for the other form elements */
+}
