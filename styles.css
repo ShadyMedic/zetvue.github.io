@@ -84,9 +84,17 @@ h1 {
     font-size: 45px;
     font-weight: 600;
     padding-bottom: 20px;
-    font-variation-settings: 'LXND' 40;
     font-family: Lexend Exa;
     letter-spacing: -3px;
+}
+
+h6 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    padding-bottom: 20px;
+    color: #e5383b7c;
 }
 
 .introMedia {
